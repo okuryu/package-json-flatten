@@ -94,7 +94,7 @@ See the [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
-This module is available under the [BSD license](LICENSE.md).
+This module is licensed under the [BSD license](LICENSE.md).
 
-* The [nomnom](https://github.com/harthur/nomnom) module is available under the MIT License.
-* The [detect-indent](https://github.com/sindresorhus/detect-indent) module is available under the MIT License.
+* [nomnom](https://github.com/harthur/nomnom) is licensed under the MIT License.
+* [detect-indent](https://github.com/sindresorhus/detect-indent) is licensed under the MIT License.
