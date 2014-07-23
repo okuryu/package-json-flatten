@@ -1,0 +1,47 @@
+{
+  "name": "package-json-flatten",
+  "version": "0.1.0",
+  "description": "Tools flatten package.json format",
+  "keywords": [
+    "package.json"
+  ],
+  "homepage": "https://github.com/okuryu/package-json-flatten",
+  "bugs": {
+    "url": "https://github.com/okuryu/package-json-flatten/issues"
+  },
+  "license": {
+    "type": "BSD",
+    "url": "https://github.com/okuryu/package-json-flatten/blob/master/LICENSE.md"
+  },
+  "author": "Ryuichi Okumura <okuryu@okuryu.com>",
+  "files": [
+    "build",
+    "dist"
+  ],
+  "bin": {
+    "package-json-flatten": "bin/package-json-flatten.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:okuryu/package-json-flatten.git"
+  },
+  "scripts": {
+    "test": "grunt",
+    "precommit": "npm test",
+    "prepublish": "npm test"
+  },
+  "dependencies": {
+    "detect-indent": "^0.2.0",
+    "nomnom": "^1.8.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-es6-module-transpiler": "^0.6.0",
+    "grunt-es6-module-wrap-default": "^0.2.0",
+    "husky": "^0.6.0",
+    "jshint": "^2.5.2"
+  },
+  "preferGlobal": true
+}
