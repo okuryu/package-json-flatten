@@ -14,7 +14,7 @@ module.exports = function (grunt) {
             options: {
                 jshintrc: true
             },
-            main: ["Gruntfile.js", "lib", "bin"]
+            main: ["Gruntfile.js", "lib", "bin", "test"]
         },
         transpile: {
             main: {
@@ -38,6 +38,14 @@ module.exports = function (grunt) {
                 src: ["*.js"],
                 dest: "dist"
             }
+        },
+        mochaTest: {
+            options: {
+                reporter: "spec"
+            },
+            main: {
+                src: "test/*.js"
+            }
         }
     });
 
@@ -45,8 +53,10 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks("grunt-contrib-jshint");
     grunt.loadNpmTasks("grunt-es6-module-transpiler");
     grunt.loadNpmTasks("grunt-es6-module-wrap-default");
+    grunt.loadNpmTasks("grunt-mocha-test");
 
     grunt.registerTask("lint", ["jshint"]);
     grunt.registerTask("build", ["transpile", "es6_module_wrap_default"]);
-    grunt.registerTask("default", ["clean", "lint", "build"]);
+    grunt.registerTask("test", ["mochaTest"]);
+    grunt.registerTask("default", ["clean", "lint", "build", "test"]);
 };
