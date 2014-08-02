@@ -39,12 +39,12 @@ module.exports = function (grunt) {
                 dest: "dist"
             }
         },
-        mochaTest: {
+        mocha_istanbul: {
             options: {
-                reporter: "spec"
+                coverage: true
             },
             main: {
-                src: "test/*.js"
+                src: "test"
             }
         }
     });
@@ -53,10 +53,10 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks("grunt-contrib-jshint");
     grunt.loadNpmTasks("grunt-es6-module-transpiler");
     grunt.loadNpmTasks("grunt-es6-module-wrap-default");
-    grunt.loadNpmTasks("grunt-mocha-test");
+    grunt.loadNpmTasks("grunt-mocha-istanbul");
 
     grunt.registerTask("lint", ["jshint"]);
     grunt.registerTask("build", ["transpile", "es6_module_wrap_default"]);
-    grunt.registerTask("test", ["mochaTest"]);
+    grunt.registerTask("test", ["mocha_istanbul"]);
     grunt.registerTask("default", ["clean", "lint", "build", "test"]);
 };

@@ -42,7 +42,7 @@
     "grunt-contrib-jshint": "^0.10.0",
     "grunt-es6-module-transpiler": "^0.6.0",
     "grunt-es6-module-wrap-default": "^0.2.0",
-    "grunt-mocha-test": "^0.11.0",
+    "grunt-mocha-istanbul": "^1.5.0",
     "husky": "^0.6.0",
     "jshint": "^2.5.2"
   },
