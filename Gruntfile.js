@@ -46,6 +46,11 @@ module.exports = function (grunt) {
             main: {
                 src: "test"
             }
+        },
+        coveralls: {
+            main: {
+                src: "coverage/lcov.info"
+            }
         }
     });
 
@@ -54,6 +59,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks("grunt-es6-module-transpiler");
     grunt.loadNpmTasks("grunt-es6-module-wrap-default");
     grunt.loadNpmTasks("grunt-mocha-istanbul");
+    grunt.loadNpmTasks("grunt-coveralls");
 
     grunt.registerTask("lint", ["jshint"]);
     grunt.registerTask("build", ["transpile", "es6_module_wrap_default"]);
