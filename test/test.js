@@ -10,7 +10,7 @@ var flatten = require("../dist/flatten"),
     expect = require("chai").expect;
 
 describe("Basic Test", function () {
-    it("flatten", function () {
+    it("flatten normal data", function () {
         var data = {
                 description: "Test Data",
                 version: "0.0.1",
@@ -20,6 +20,22 @@ describe("Basic Test", function () {
                 name: "Test Data",
                 version: "0.0.1",
                 description: "Test Data"
+            },
+            flattenedData = flatten(data);
+        expect(JSON.stringify(flattenedData)).to.be.equal(JSON.stringify(expectedData));
+    });
+    it("flatten extended data", function () {
+        var data = {
+                yahoo: {},
+                description: "Test Data",
+                version: "0.0.1",
+                name: "Test Data"
+            },
+            expectedData = {
+                name: "Test Data",
+                version: "0.0.1",
+                description: "Test Data",
+                yahoo: {}
             },
             flattenedData = flatten(data);
         expect(JSON.stringify(flattenedData)).to.be.equal(JSON.stringify(expectedData));
