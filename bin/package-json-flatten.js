@@ -15,6 +15,12 @@ cli(require("nomnom")
             default: "package.json",
             metavar: "FILE",
             help: "Path to package.json file"
+        },
+        indent: {
+            abbr: "i",
+            default: 2,
+            metavar: "INDENT",
+            help: "Number of whitespace to indent"
         }
     })
     .nocolors()

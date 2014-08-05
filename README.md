@@ -23,7 +23,8 @@ $ package-json-flatten -h
 Usage: node package-json-flatten [options]
 
 Options:
-   -f FILE, --file FILE   Path to package.json file  [package.json]
+   -f FILE, --file FILE         Path to package.json file  [package.json]
+   -i INDENT, --indent INDENT   Number of whitespace to indent  [2]
 
 ```
 
