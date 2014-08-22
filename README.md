@@ -92,7 +92,7 @@ See the [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Author
 
-* [Ryuichi Okumura](http://www.okuryu.com/)
+* Ryuichi Okumura ([@okuryu](https://github.com/okuryu))
 
 ## License
 
