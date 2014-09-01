@@ -46,7 +46,7 @@
     "grunt-es6-module-wrap-default": "^0.2.0",
     "grunt-mocha-istanbul": "^2.0.0",
     "husky": "^0.6.0",
-    "jshint": "^2.5.2"
+    "jshint": "^2.5.5"
   },
   "preferGlobal": true
 }
