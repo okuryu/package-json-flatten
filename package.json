@@ -11,7 +11,7 @@
   },
   "license": {
     "type": "BSD",
-    "url": "https://github.com/okuryu/package-json-flatten/blob/master/LICENSE.md"
+    "url": "https://github.com/okuryu/package-json-flatten/blob/master/LICENSE"
   },
   "author": "Ryuichi Okumura <okuryu@okuryu.com>",
   "files": [
