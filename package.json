@@ -15,6 +15,7 @@
   },
   "author": "Ryuichi Okumura <okuryu@okuryu.com>",
   "files": [
+    "bin",
     "build",
     "dist"
   ],
