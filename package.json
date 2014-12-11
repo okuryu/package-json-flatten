@@ -17,7 +17,8 @@
   "files": [
     "bin",
     "build",
-    "dist"
+    "dist",
+    "LICENSE"
   ],
   "bin": {
     "package-json-flatten": "bin/package-json-flatten.js"
