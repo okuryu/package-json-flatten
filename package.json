@@ -34,7 +34,7 @@
     "prepublish": "npm test"
   },
   "dependencies": {
-    "detect-indent": "^0.2.0",
+    "detect-indent": "^3.0.0",
     "nomnom": "^1.8.0"
   },
   "devDependencies": {
