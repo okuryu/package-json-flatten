@@ -1,9 +1,9 @@
 # package-json-flatten
 
-[![npm Version](https://badge.fury.io/js/package-json-flatten.svg)](http://badge.fury.io/js/package-json-flatten)
-[![Build Status](https://travis-ci.org/okuryu/package-json-flatten.svg?branch=master)](https://travis-ci.org/okuryu/package-json-flatten)
-[![Dependency Status](https://gemnasium.com/okuryu/package-json-flatten.svg)](https://gemnasium.com/okuryu/package-json-flatten)
-[![Coverage Status](https://img.shields.io/coveralls/okuryu/package-json-flatten.svg)](https://coveralls.io/r/okuryu/package-json-flatten?branch=master)
+[![npm Version](https://img.shields.io/npm/v/package-json-flatten.svg?style=flat-square)](https://www.npmjs.com/package/package-json-flatten)
+[![Build Status](http://img.shields.io/travis/yui/package-json-flatten.svg?style=flat-square)](https://travis-ci.org/okuryu/package-json-flatten)
+[![Dependency Status](https://img.shields.io/gemnasium/okuryu/package-json-flatten.svg?style=flat-square)](https://gemnasium.com/okuryu/package-json-flatten)
+[![Coverage Status](https://img.shields.io/coveralls/okuryu/package-json-flatten.svg?style=flat-square)](https://coveralls.io/r/okuryu/package-json-flatten?branch=master)
 
 Tools flatten package.json format.
 
