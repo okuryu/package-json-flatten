@@ -1,7 +1,7 @@
 # package-json-flatten
 
 [![npm Version](https://img.shields.io/npm/v/package-json-flatten.svg?style=flat-square)](https://www.npmjs.com/package/package-json-flatten)
-[![Build Status](http://img.shields.io/travis/yui/package-json-flatten.svg?style=flat-square)](https://travis-ci.org/okuryu/package-json-flatten)
+[![Build Status](http://img.shields.io/travis/okuryu/package-json-flatten.svg?style=flat-square)](https://travis-ci.org/okuryu/package-json-flatten)
 [![Dependency Status](https://img.shields.io/gemnasium/okuryu/package-json-flatten.svg?style=flat-square)](https://gemnasium.com/okuryu/package-json-flatten)
 [![Coverage Status](https://img.shields.io/coveralls/okuryu/package-json-flatten.svg?style=flat-square)](https://coveralls.io/r/okuryu/package-json-flatten?branch=master)
 
