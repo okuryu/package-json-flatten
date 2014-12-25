@@ -60,7 +60,7 @@ Run `package-json-flatten` command.
 $ package-json-flatten
 ```
 
-It will finds the package.json file in the current directory in default and reformat it based on order the [NPM official package.json reference](https://www.npmjs.org/doc/package.json.html).
+It will finds the package.json file in the current directory in default and reformat it based on order the [npm official package.json reference](https://docs.npmjs.com/files/package.json).
 
 ```js
 {
