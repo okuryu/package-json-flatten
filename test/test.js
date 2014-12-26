@@ -40,4 +40,48 @@ describe("Basic Test", function () {
             flattenedData = flatten(data);
         expect(JSON.stringify(flattenedData)).to.be.equal(JSON.stringify(expectedData));
     });
+    it("flatten data contains keywords", function () {
+        var data = {
+                keywords: [
+                    "foo",
+                    "bar"
+                ],
+                description: "Test Data",
+                version: "0.0.1",
+                name: "Test Data"
+            },
+            expectedData = {
+                name: "Test Data",
+                version: "0.0.1",
+                description: "Test Data",
+                keywords: [
+                    "bar",
+                    "foo"
+                ]
+            },
+            flattenedData = flatten(data);
+        expect(JSON.stringify(flattenedData)).to.be.equal(JSON.stringify(expectedData));
+    });
+    it("flatten data contains files", function () {
+        var data = {
+                files: [
+                    "foo",
+                    "bar"
+                ],
+                description: "Test Data",
+                version: "0.0.1",
+                name: "Test Data"
+            },
+            expectedData = {
+                name: "Test Data",
+                version: "0.0.1",
+                description: "Test Data",
+                files: [
+                    "bar",
+                    "foo"
+                ]
+            },
+            flattenedData = flatten(data);
+        expect(JSON.stringify(flattenedData)).to.be.equal(JSON.stringify(expectedData));
+    });
 });
