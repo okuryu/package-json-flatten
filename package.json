@@ -15,10 +15,10 @@
   },
   "author": "Ryuichi Okumura <okuryu@okuryu.com>",
   "files": [
+    "LICENSE",
     "bin",
     "build",
-    "dist",
-    "LICENSE"
+    "dist"
   ],
   "bin": {
     "package-json-flatten": "bin/package-json-flatten.js"
