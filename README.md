@@ -86,6 +86,28 @@ It will finds the package.json file in the current directory in default and refo
 }
 ```
 
+## Integration with npm scripts
+
+You also can run flattening as npm script as follow.
+
+```
+$ npm install package-json-flatten --save-dev
+```
+
+Specify a npm script within your `package.json`.
+
+```js
+  "scripts": {
+    "flatten": "package-json-flatten"
+  }
+```
+
+The npm script is available now.
+
+```
+$ npm run flatten
+```
+
 ## Contributing
 
 See the [CONTRIBUTING.md](CONTRIBUTING.md).
