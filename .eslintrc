@@ -1,0 +1,8 @@
+{
+  "ecmaFeatures": {
+    "modules": true
+  },
+  "env": {
+    "node": true
+  }
+}
