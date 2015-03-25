@@ -40,6 +40,18 @@ describe("Basic Test", function () {
         var flattenedData = flatten(data);
         expect(JSON.stringify(flattenedData)).to.be.equal(JSON.stringify(expectedData));
     });
+    it("flatten data contains prototype", function () {
+        function TestData() {
+            this.name = "Test Data";
+        }
+        TestData.prototype.yahoo = "foo";
+        var data = new TestData();
+        var expectedData = {
+            name: "Test Data"
+        };
+        var flattenedData = flatten(data);
+        expect(JSON.stringify(flattenedData)).to.be.equal(JSON.stringify(expectedData));
+    });
     it("flatten data contains keywords", function () {
         var data = {
             keywords: [
@@ -80,6 +92,22 @@ describe("Basic Test", function () {
                 "bar",
                 "foo"
             ]
+        };
+        var flattenedData = flatten(data);
+        expect(JSON.stringify(flattenedData)).to.be.equal(JSON.stringify(expectedData));
+    });
+    it("flatten data contains non array files", function () {
+        var data = {
+            files: "foo",
+            description: "Test Data",
+            version: "0.0.1",
+            name: "Test Data"
+        };
+        var expectedData = {
+            name: "Test Data",
+            version: "0.0.1",
+            description: "Test Data",
+            files: "foo"
         };
         var flattenedData = flatten(data);
         expect(JSON.stringify(flattenedData)).to.be.equal(JSON.stringify(expectedData));
