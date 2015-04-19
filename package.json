@@ -46,7 +46,7 @@
     "grunt-es6-module-transpiler": "^0.6.0",
     "grunt-es6-module-wrap-default": "^0.2.0",
     "grunt-eslint": "^11.0.0",
-    "grunt-mocha-istanbul": "^2.3.1",
+    "grunt-mocha-istanbul": "^2.4.0",
     "husky": "^0.7.0"
   },
   "preferGlobal": true
