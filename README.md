@@ -125,7 +125,7 @@ This module is licensed under the [BSD license](LICENSE).
 
 [npm Version Badge]: https://img.shields.io/npm/v/package-json-flatten.svg?style=flat-square
 [npm Version]: https://www.npmjs.com/package/package-json-flatten
-[Build Status Badge]: http://img.shields.io/travis/okuryu/package-json-flatten.svg?style=flat-square
+[Build Status Badge]: https://img.shields.io/travis/okuryu/package-json-flatten.svg?style=flat-square
 [Build Status]: https://travis-ci.org/okuryu/package-json-flatten
 [Dependency Status Badge]: https://img.shields.io/gemnasium/okuryu/package-json-flatten.svg?style=flat-square
 [Dependency Status]: https://gemnasium.com/okuryu/package-json-flatten
