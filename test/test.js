@@ -4,8 +4,6 @@
  * https://github.com/okuryu/package-json-flatten/blob/master/LICENSE
  */
 /*global describe, it*/
-"use strict";
-
 var flatten = require("../dist/flatten");
 var expect = require("chai").expect;
 

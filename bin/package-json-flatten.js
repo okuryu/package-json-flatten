@@ -4,8 +4,6 @@
  * Code licensed under the BSD License:
  * https://github.com/okuryu/package-json-flatten/blob/master/LICENSE.md
  */
-"use strict";
-
 var cli = require("../dist/cli");
 
 cli(require("nomnom")

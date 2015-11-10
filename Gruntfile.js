@@ -3,8 +3,6 @@
  * Code licensed under the BSD License:
  * https://github.com/okuryu/package-json-flatten/blob/master/LICENSE.md
  */
-"use strict";
-
 module.exports = function (grunt) {
     grunt.initConfig({
         clean: {
