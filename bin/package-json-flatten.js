@@ -5,21 +5,15 @@
  * https://github.com/okuryu/package-json-flatten/blob/master/LICENSE.md
  */
 var cli = require("../dist/cli");
+var program = require("commander");
 
-cli(require("nomnom")
-  .options({
-    file: {
-      abbr: "f",
-      default: "package.json",
-      metavar: "FILE",
-      help: "Path to package.json file"
-    },
-    indent: {
-      abbr: "i",
-      default: 2,
-      metavar: "INDENT",
-      help: "Number of whitespace to indent"
-    }
-  })
-  .nocolors()
-  .parse());
+cli(program
+  .option(
+    "-f, --file [file]",
+    "Path to package.json file (default: ./package.json)"
+  )
+  .option(
+    "-i, --indent [indent]",
+    "String to indent (default: auto detection from the file or 4 whitespace)"
+  )
+  .parse(process.argv));
