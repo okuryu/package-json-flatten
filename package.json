@@ -1,6 +1,6 @@
 {
   "name": "package-json-flatten",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Tools flatten package.json format",
   "keywords": [
     "package.json"
