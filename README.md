@@ -17,18 +17,7 @@ $ npm install -g package-json-flatten
 
 The `package-json-flatten` command should be available right now.
 
-```
-$ package-json-flatten -h
-
-Usage: node package-json-flatten [options]
-
-Options:
-   -f FILE, --file FILE         Path to package.json file  [package.json]
-   -i INDENT, --indent INDENT   Number of whitespace to indent  [2]
-
-```
-
-Here is the example of package.json.
+Here is an example of package.json.
 
 ```js
 {
@@ -60,7 +49,8 @@ Run `package-json-flatten` command.
 $ package-json-flatten
 ```
 
-It will finds the package.json file in the current directory in default and reformat it based on order the [npm official package.json reference][package.json docs].
+It finds the package.json file in the current directory in default and reformat it based on order
+the [npm official package.json reference][package.json docs].
 
 ```js
 {
@@ -86,26 +76,24 @@ It will finds the package.json file in the current directory in default and refo
 }
 ```
 
-## Integration with npm scripts
+## Options
 
-You also can run flattening as npm script as follow.
+### -f, --file [file]
 
-```
-$ npm install package-json-flatten --save-dev
-```
-
-Specify a npm script within your `package.json`.
-
-```js
-  "scripts": {
-    "flatten": "package-json-flatten"
-  }
-```
-
-The npm script is available now.
+A option to pass a path to package.json. It read the package.json in the current directory in
+default.
 
 ```
-$ npm run flatten
+$ package-json-flatten -f src/package.json
+```
+
+### -i, --indent [indent]
+
+A option to change an indent style of the package.json. It detects indent style from the
+package.json and use it, or use default indent style 4 whitespace.
+
+```
+$ package-json-flatten -i '  '
 ```
 
 ## Contributing
@@ -118,9 +106,9 @@ See the [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
-This module is licensed under the [BSD license](LICENSE).
+package-json-flatten is licensed under the [BSD license](LICENSE).
 
-* [nomnom] is licensed under the MIT License.
+* [commander] is licensed under the MIT License.
 * [detect-indent] is licensed under the MIT License.
 
 [npm Version Badge]: https://img.shields.io/npm/v/package-json-flatten.svg?style=flat-square
@@ -133,5 +121,5 @@ This module is licensed under the [BSD license](LICENSE).
 [Coverage Status]: https://coveralls.io/r/okuryu/package-json-flatten?branch=master
 [package.json docs]: https://docs.npmjs.com/files/package.json
 [@okuryu]: https://github.com/okuryu
-[nomnom]: https://github.com/harthur/nomnom
+[commander]: https://github.com/tj/commander.js
 [detect-indent]: https://github.com/sindresorhus/detect-indent
