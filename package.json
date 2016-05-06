@@ -26,8 +26,7 @@
   },
   "scripts": {
     "test": "grunt",
-    "coveralls": "grunt && grunt coveralls",
-    "prepublish": "npm test"
+    "coveralls": "grunt && grunt coveralls"
   },
   "dependencies": {
     "commander": "^2.9.0",
