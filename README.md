@@ -80,7 +80,7 @@ the [npm official package.json reference][package.json docs].
 
 ### -f, --file [file]
 
-A option to pass a path to package.json. It read the package.json in the current directory in
+An option to pass a path to package.json. It read the package.json in the current directory in
 default.
 
 ```
@@ -89,7 +89,7 @@ $ package-json-flatten -f src/package.json
 
 ### -i, --indent [indent]
 
-A option to change an indent style of the package.json. It detects indent style from the
+An option to change an indent style of the package.json. It detects indent style from the
 package.json and use it, or use default indent style 4 whitespace.
 
 ```
