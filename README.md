@@ -117,8 +117,8 @@ package-json-flatten is licensed under the [BSD license](LICENSE).
 [Build Status]: https://travis-ci.org/okuryu/package-json-flatten
 [Dependency Status Badge]: https://img.shields.io/gemnasium/okuryu/package-json-flatten.svg?style=flat-square
 [Dependency Status]: https://gemnasium.com/okuryu/package-json-flatten
-[Coverage Status Badge]: https://img.shields.io/coveralls/okuryu/package-json-flatten.svg?style=flat-square
-[Coverage Status]: https://coveralls.io/r/okuryu/package-json-flatten?branch=master
+[Coverage Status Badge]: https://img.shields.io/codecov/c/github/okuryu/package-json-flatten/master.svg
+[Coverage Status]: https://codecov.io/gh/okuryu/package-json-flatten
 [package.json docs]: https://docs.npmjs.com/files/package.json
 [@okuryu]: https://github.com/okuryu
 [commander]: https://github.com/tj/commander.js
