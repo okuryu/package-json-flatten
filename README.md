@@ -111,11 +111,11 @@ package-json-flatten is licensed under the [BSD license](LICENSE).
 * [commander] is licensed under the MIT License.
 * [detect-indent] is licensed under the MIT License.
 
-[npm Version Badge]: https://img.shields.io/npm/v/package-json-flatten.svg?style=flat-square
+[npm Version Badge]: https://img.shields.io/npm/v/package-json-flatten.svg
 [npm Version]: https://www.npmjs.com/package/package-json-flatten
-[Build Status Badge]: https://img.shields.io/travis/okuryu/package-json-flatten.svg?style=flat-square
+[Build Status Badge]: https://img.shields.io/travis/okuryu/package-json-flatten.svg
 [Build Status]: https://travis-ci.org/okuryu/package-json-flatten
-[Dependency Status Badge]: https://img.shields.io/gemnasium/okuryu/package-json-flatten.svg?style=flat-square
+[Dependency Status Badge]: https://img.shields.io/gemnasium/okuryu/package-json-flatten.svg
 [Dependency Status]: https://gemnasium.com/okuryu/package-json-flatten
 [Coverage Status Badge]: https://img.shields.io/codecov/c/github/okuryu/package-json-flatten/master.svg
 [Coverage Status]: https://codecov.io/gh/okuryu/package-json-flatten
